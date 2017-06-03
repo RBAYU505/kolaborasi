@@ -1,6 +1,6 @@
 <?php
 $harga=900000;
-$diskon=0.1;
+$percent_diskon=0.1;
 $bayar=$harga-($harga*$diskon);
 
 echo "Harga = Rp." .$harga;  
